@@ -1,0 +1,7 @@
+/home
+/target
+/.settings
+/.classpath
+/.project
+/.springBeans
+/openshift-postgres-credentials.txt

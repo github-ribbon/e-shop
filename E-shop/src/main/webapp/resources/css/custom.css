@@ -1,0 +1,137 @@
+
+.carousel{
+	border:solid lightgray 1px;
+	box-shadow:0 0 5px lightgray;
+	border-radius:5px;	
+}
+
+.margin-none{
+	margin:0;
+}
+
+html .text-left{
+	text-align:left;	
+}
+
+.footer-font{
+	font-size:10pt;
+}
+
+.bold{
+	font-weight:bold;
+}
+
+.padding-top{
+	padding-top:80px;
+}
+
+html .padding-small{
+	padding:10px;
+}
+
+.control-medium{
+	width:70%;
+}
+
+.form-buttons{
+	margin:10px;
+}
+
+html .display-block{
+	display:block;
+}
+
+.control-wide{
+	width:90%;
+}
+
+.margin-top-small{
+	margin-top:10px;
+}
+
+.padding-top-small{
+	padding-top:10px;
+}
+
+.padding-bottom-small{
+	padding-bottom:10px;
+}
+
+.padding-left-small{
+	
+	padding-left:10px;
+}
+
+html .padding-horizontal-0{
+	padding-left:0;padding-right:0;
+}
+
+img.product-thumb{
+	max-width:10%;
+}
+
+img.product-big-thumb{
+	max-width:90%;
+}
+
+.img-main{
+	max-width:80%;
+}
+
+.display-inline{
+	display:inline;	
+}
+
+.display-inline-block{
+	display:inline-block;
+}
+
+html .centered{
+	text-align:center;
+}
+
+
+table.table-middle td{
+	vertical-align:middle;
+}
+
+
+html table td.thumb-cell{
+	width:40%;
+	
+}
+
+
+html .font-medium{
+	
+font-size:medium;
+	
+	
+}
+html table td.small-thumb-cell{
+	width:20%;
+	
+}
+
+html .price{
+	font-size:13pt;padding:10px;letter-spacing:2px;
+}
+
+.margin-small{
+	margin:10px;
+}
+html ul {
+	list-style-type:none;
+}
+
+
+#share-buttons img {
+	width: 35px;
+	padding: 5px;
+	border: 0;
+	box-shadow: 0;
+	display: inline-block;
+}
+ 
+
+

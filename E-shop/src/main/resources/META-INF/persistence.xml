@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="E-shop" transaction-type="RESOURCE_LOCAL">
+		
+	
+	<provider>org.hibernate.ejb.HibernatePersistence</provider>
+	<!-- <jta-data-source>jdbc/PostgreSQL</jta-data-source>-->
+	   
+	<class>com.company.eshop.domain.Admin</class>
+	<class>com.company.eshop.domain.OrderedItem</class>
+	<class>com.company.eshop.domain.Category</class>
+	<class>com.company.eshop.domain.Order</class>
+	<class>com.company.eshop.domain.Feature</class>
+	<class>com.company.eshop.domain.UsrPK</class>
+	<class>com.company.eshop.domain.FeatureTypePK</class>
+	<class>com.company.eshop.domain.Usr</class>
+	<class>com.company.eshop.domain.ProductInstance</class>
+	<class>com.company.eshop.domain.Image</class>
+	<class>com.company.eshop.domain.OrderedItemPK</class>
+	<class>com.company.eshop.domain.Opinion</class>
+	<class>com.company.eshop.domain.DbStatusPK</class>
+	<class>com.company.eshop.domain.CategoryPK</class>
+	<class>com.company.eshop.domain.DeliveryAddress</class>
+	<class>com.company.eshop.domain.FeaturePK</class>
+	<class>com.company.eshop.domain.FeatureType</class>
+	<class>com.company.eshop.domain.Client</class>
+	<class>com.company.eshop.domain.DbStatus</class>
+	<class>com.company.eshop.domain.Product</class>
+	<class>com.company.eshop.domain.Manufacturer</class>
+	<properties>
+		<!-- <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/shop"/>
+		<property name="javax.persistence.jdbc.user" value="postgres"/>
+		<property name="javax.persistence.jdbc.password" value="ppp"/>
+		<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>-->
+		<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
+		<!-- <property name="hibernate.transaction.jta.platform" value="org.hibernate.service.jta.platform.internal.JBossAppServerJtaPlatform" />-->
+		<!--<property name="hibernate.transaction.jta.platform" value="org.hibernate.service.jta.platform.internal.SunOneJtaPlatform" />-->
+		
+	</properties>
+	</persistence-unit>
+</persistence>
